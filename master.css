@@ -1,0 +1,142 @@
+html, body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100vh;
+     background: #000;
+}
+
+
+
+h1 {
+     position: absolute;
+     top: 46%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: #000;
+     font-size: 48px;
+     font-family: "Playfair Display";
+     font-weight: lighter;
+}
+header{
+     position: fixed;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+     z-index: 11;
+}
+
+.toggle-btn {
+     position: absolute;
+    margin: 1.0rem;
+    padding: 1em;
+    width: 40px;
+    height: 12px;
+    left: -20px;
+    z-index: 1;
+    top: 40%;
+   cursor:pointer;
+   opacity: 0;
+}
+
+span.one {
+position: absolute;
+width: 70px;
+height: 2px;
+background: #000;
+}
+
+span.two {
+     position: absolute;
+     width: 70px;
+     height: 2px;
+     background: #000;
+     margin-top: 12px;
+}
+span.three {
+     position: absolute;
+     width: 70px;
+     height: 2px;
+     background: #000;
+     margin-top: 24px;
+}
+
+.menu {
+z-index: -1;
+background: #fff;
+height: 100vh;
+width: 130px;
+}
+
+.data {
+    
+     display: grid;
+     grid-template-columns: repeat(1,auto);
+     margin: auto 20%;
+     max-width: 90%;
+     text-align: center;
+
+}
+
+ul {
+     list-style: none;
+}
+li{
+     display: block;
+     grid-column: 1/-1;
+
+}
+
+
+
+li {
+     color: #fff;
+     font-size: 42px;
+     opacity: 0;
+}
+
+a {
+     text-decoration: none;
+     color: #fff;
+     font-family: Poppins;
+}
+
+body{
+
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 1500px;
+position: relative;
+left: 100px;
+}
+.logo {
+position: absolute;
+bottom: 10px;
+opacity: 0;
+}
+.logo img {
+width: 120px;
+height: 100px;
+}
+.snow  {
+ position: absolute;
+right: 5%;
+top: 27%;
+height: 505px;
+opacity: 0;
+
+}
+.winter{
+     position: absolute;
+     top: 25%;
+     left: 25%;
+     opacity: 0;
+}
+.logo-got {
+position: absolute;
+bottom: 0;
+right: 10px;
+opacity: 0;
+}
